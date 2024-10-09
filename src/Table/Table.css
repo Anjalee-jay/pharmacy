@@ -1,0 +1,15 @@
+.container3{
+    font-size: smaller;
+    height: 50%;
+}
+
+.MuiTableRow-Root>*{
+    padding:200px;
+}
+.MuiTableRow-Root.MuiTableRow-head>*{
+    font-weight: bold !important;
+}
+.TableHead{
+    font-weight: bold !important;
+  }
+  

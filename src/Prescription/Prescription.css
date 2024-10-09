@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  color: #0f0f0f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.header2{
+  grid-area: header;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  box-shadow: 0 6px 7px -3px black ;
+  font-size: 70%;
+  width: 75%;
+  margin-left: 20.5%;
+  margin-top: 30%;
+}
+.menu-icon{
+  display: none;
+}
+
+#sidebar2 {
+  grid-area: sidebar;
+  height: 100vh;
+  background-color: #3574b8;
+  overflow-y: auto;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  width: 20%;
+  margin-top:-5%;
+  
+
+  
+
+}
+.sidebar-title2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 0px 30px;
+  margin-bottom: 20px;
+}
+
+.sidebar-title2 >span {
+  display: none;
+}
+.sidebar-brand2{
+  font-weight: bold;
+  font-size: larger;
+  padding-left: 50%;
+  margin-top: 15%;
+}
+
+.logo-text {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+
+}
+
+.part1 {
+  color: #BDC3C7; /* Blue for "Medi" */
+}
+
+.part2 {
+  color: #4CAF50; /* Green for "Connect" */
+}
+
+.sidebar li{
+  padding:  10%;
+list-style-type: none;
+}
+.sidebar-list-item{
+  padding: 10px 10px 10px 10px;
+  font-size: 25px;
+  margin-top: 20%;
+  
+}
+.sidebar-list-item:hover{
+  background-color: #f7f3f3;
+  cursor: pointer;
+  padding: 1.5%;
+
+}
+.sidebar-list-item> a{
+  padding: 20%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.sidebar-responsive{
+  display: inline !important;
+  position: absolute;
+  z-index: 12 !important;
+
+}
